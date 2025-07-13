@@ -1,0 +1,56 @@
+.card {
+  max-width: 413px;
+}
+
+.card__image {
+  height: 413px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+}
+
+.card__like-btn {
+  background-image: url("../images/spots-images/Union.svg");
+  width: 23px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  opacity: 40%;
+}
+
+@media screen and (max-width: 627px) {
+  .card {
+    max-width: 288px;
+  }
+
+  .card__image {
+    height: 288px;
+    width: 288px;
+  }
+
+  .card__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__like-btn {
+    margin-top: 12px;
+  }
+}
