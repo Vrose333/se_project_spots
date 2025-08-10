@@ -1,5 +1,7 @@
 .card {
   max-width: 413px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
+  padding-bottom: 40px;
 }
 
 .card__image {
@@ -7,6 +9,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 16px;
 }
 
 .card__content {
@@ -33,6 +36,11 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+}
+
+.card_like-button:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
@@ -48,6 +56,12 @@
   .card__content {
     flex-direction: column;
     align-items: center;
+  }
+
+  .card__title {
+    text-align: beginning;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .card__like-btn {

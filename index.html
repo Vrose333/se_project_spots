@@ -6,6 +6,7 @@
     <meta name="author" content="Valaria D" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Spots</title>
   </head>
@@ -36,7 +37,11 @@
             </button>
           </div>
           <button type="button" class="profile__add-btn">
-            <img src="/images/spots-images/plus.svg" alt="Plus icon" />New Post
+            <img
+              src="/images/spots-images/plus.svg"
+              alt="Plus icon"
+              class="profile_add-icon"
+            />New Post
           </button>
         </section>
         <section class="cards page__section">
@@ -81,9 +86,7 @@
                 class="card__image"
               />
               <div class="card__content">
-                <h2 class="card__title">
-                  A very long bridge, over the forest...
-                </h2>
+                <h2 class="card__title">A very long bridge, over the forest</h2>
                 <button type="button" class="card__like-btn"></button>
               </div>
             </li>
@@ -112,7 +115,7 @@
           </ul>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">Valaria D</footer>
     </div>
   </body>
 </html>
