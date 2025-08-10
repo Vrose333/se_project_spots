@@ -42,6 +42,10 @@ Welccome to **Spots**, a responsive layout project built as a part of the Triple
 - Added to `images/` directory
 - Referenced in HTML using relative paths
 
+## Project Walkthrough Video
+
+[Click here to view or download the walkthrough](video/Walkthrough.mp4)
+
 **Author**
 
 Valaria D. - Web Developer/ Software Engineer in training
