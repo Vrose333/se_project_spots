@@ -78,7 +78,7 @@
   cursor: pointer;
 }
 
-.profile_add-icon {
+.profile__add-icon {
   width: 16px;
   height: 16px;
   filter: brightness(0) invert(1);
