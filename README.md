@@ -44,7 +44,7 @@ Welccome to **Spots**, a responsive layout project built as a part of the Triple
 
 ## Project Walkthrough Video
 
-[Click here to view or download the walkthrough](video/Walkthrough.mp4)
+[Click here to view or download the walkthrough](https://drive.google.com/file/d/1r46RypZf58xQ7X6GmnclS0Mdbc-M84pE/view?usp=drive_link)
 
 **Author**
 
