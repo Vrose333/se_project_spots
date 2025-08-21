@@ -35,6 +35,10 @@ Welccome to **Spots**, a responsive layout project built as a part of the Triple
 
 - [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
 
+**GitHub**
+
+- [Link to project on GitHub](https://github.com/Vrose333/se_project_spots.git)
+
 ### Image Workflow
 
 - Exporting assets from Figma in PNG and SVG format
