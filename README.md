@@ -37,7 +37,7 @@ Welccome to **Spots**, a responsive layout project built as a part of the Triple
 
 **GitHub**
 
-- [Link to project on GitHub](https://github.com/Vrose333/se_project_spots.git)
+- [Link to project on GitHub](https://vrose333.github.io/se_project_spots/)
 
 ### Image Workflow
 

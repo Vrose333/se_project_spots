@@ -39,8 +39,8 @@
   -webkit-box-orient: vertical;
   max-width: 420px;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 16px;
+  line-height: 100%;
   font-weight: 500;
   color: #212121;
   opacity: 0.7;
@@ -52,11 +52,10 @@
   margin-top: auto;
   gap: 8px;
   padding: 0;
-  border-radius: 16px;
   border: none;
   background-color: transparent;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 100%;
   font-weight: 500;
   color: #212121;
   opacity: 0.7;
@@ -64,7 +63,7 @@
 }
 
 .profile__edit-btn:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .profile__edit-icon {
@@ -92,9 +91,8 @@
   -webkit-appearance: none;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 100%;
   font-weight: 500;
-  color: #fff;
   opacity: 1;
   white-space: nowrap;
   flex-wrap: nowrap;
@@ -109,7 +107,7 @@
 }
 
 .profile__add-btn:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
