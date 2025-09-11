@@ -7,17 +7,17 @@ const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 editProfileBtn.addEventListener("click", function () {
-  editProfileModal.classList.add("modal_is_opened");
+  editProfileModal.classList.add("modal_is-opened");
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
-  editProfileModal.classList.remove("modal_is_opened");
+  editProfileModal.classList.remove("modal_is-opened");
 });
 
 newPostBtn.addEventListener("click", function () {
-  newPostModal.classList.add("modal_is_opened");
+  newPostModal.classList.add("modal_is-opened");
 });
 
 newPostCloseBtn.addEventListener("click", function () {
-  newPostModal.classList.remove("modal_is_opened");
+  newPostModal.classList.remove("modal_is-opened");
 });
