@@ -11,8 +11,10 @@
   align-items: center;
 }
 
-.modal_is-opened {
+.modal.modal_is-opened {
   visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal__container {
