@@ -11,8 +11,7 @@
   align-items: center;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 280ms ease, visibility 0s 280ms,
-    background-color 280ms ease;
+  transition: opacity 280ms ease, visibility 0s 0s, background-color 280ms ease;
 }
 
 .modal.modal_is-opened {
@@ -24,6 +23,7 @@
 
 .modal__container {
   max-width: 730px;
+  box-sizing: border-box;
   width: 100%;
   border-radius: 8px;
   background-color: #fff;
@@ -99,6 +99,7 @@
 .modal__input {
   width: 100%;
   max-width: 630px;
+  box-sizing: border-box;
   height: 52px;
   padding: 16px 12px;
   border: 1px solid rgba(33, 33, 33, 0.4);

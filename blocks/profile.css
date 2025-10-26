@@ -80,7 +80,7 @@
   justify-content: center;
   gap: 8px;
   padding: 18px 32px;
-  width: 149px;
+  width: auto;
   height: 52px;
   border-radius: 8px;
   background: #212121;
@@ -96,7 +96,6 @@
   opacity: 1;
   white-space: nowrap;
   flex-wrap: nowrap;
-  width: auto;
   cursor: pointer;
 }
 
