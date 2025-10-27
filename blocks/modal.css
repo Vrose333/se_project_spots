@@ -150,3 +150,20 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+@media screen and (max-width: 627px) {
+  .modal__container {
+    max-width: 300px;
+    width: 90vw;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .modal__form {
+    gap: 24px;
+  }
+
+  .modal__title {
+    margin-bottom: 24px;
+  }
+}
