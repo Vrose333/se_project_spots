@@ -11,14 +11,12 @@
   align-items: center;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 280ms ease, visibility 0s 0s, background-color 280ms ease;
+  transition: opacity 0.3s ease, visibility 0.3s;
 }
 
 .modal.modal_is-opened {
   visibility: visible;
   opacity: 1;
-  pointer-events: auto;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal__container {

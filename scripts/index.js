@@ -49,6 +49,7 @@ newPostCloseBtn.addEventListener("click", () => closeModal(newPostModal));
 
 addCardFormEl.addEventListener("submit", (evt) => {
   evt.preventDefault();
+  console.log(linkInput.value, nameInput.value);
   closeModal(newPostModal);
   addCardFormEl.reset();
 });
