@@ -127,7 +127,7 @@ addCardFormEl.addEventListener("submit", (evt) => {
     name: nameInput.value.trim(),
     link: linkInput.value.trim(),
   };
-  if (!newCard.name || !newCard.link) return; // simple guard
+  if (!newCard.name || !newCard.link) return;
   cardsList.prepend(getCardElement(newCard));
   closeModal(newPostModal);
   addCardFormEl.reset();

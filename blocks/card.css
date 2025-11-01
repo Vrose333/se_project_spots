@@ -58,12 +58,18 @@
   height: 20px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.4;
   cursor: pointer;
+  transition: opacity 0.2s ease, background-image 0.2s ease, filter 0.2s ease;
 }
 
-.card__like-btn:hover {
-  opacity: 1;
+.card__like-btn:hover,
+.card__like-btn:focus-visible {
+  opacity: 0.6;
+  outline: none;
 }
 
 .card__like-btn_liked {
