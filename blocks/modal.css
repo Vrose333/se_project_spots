@@ -148,6 +148,86 @@
   cursor: not-allowed;
 }
 
+#preview-modal.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+#preview-modal.modal_is-opened {
+  display: flex;
+}
+
+#preview-modal.modal__container {
+  background: transparent;
+  border-radius: 8px;
+  max-width: none;
+  padding: 0;
+  width: auto;
+  box-shadow: none;
+}
+
+#preview-modal.modal__figure {
+  margin: 0;
+  position: relative;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+#preview-modal.modal__image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 80vw;
+  max-height: 80vw;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+#preview-modal.modal__caption {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  background: #212121;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+  pointer-events: none;
+}
+
+#preview-modal.modal__close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#preview-modal.modal__close-btn .modal__close-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  opacity: 0.4;
+  transition: opacity 15s ease;
+}
+
+#preview-modal.modal__close-btn:hover .modal__close-icon {
+  opacity: 1;
+}
+
 @media screen and (max-width: 627px) {
   .modal__container {
     max-width: 300px;
@@ -162,5 +242,36 @@
 
   .modal__title {
     margin-bottom: 24px;
+  }
+
+  #preview-modal .modal__figure,
+  #preview-modal .modal__image {
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
+  }
+
+  #preview-modal .modal__image {
+    border-radius: 4px;
+  }
+
+  #preview-modal .modal__caption {
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    left: 8px;
+    bottom: 8px;
+    padding: 4px 8px;
+  }
+
+  #preview-modal .modal__close-btn {
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+  }
+
+  #preview-modal .modal__close-btn .modal__close-icon {
+    width: 24px;
+    height: 24px;
   }
 }
