@@ -72,7 +72,7 @@
   outline: none;
 }
 
-.card__like-btn_liked {
+.card__like-btn_active {
   background-image: url("../images/spots-images/Liked.svg");
   opacity: 1;
 }
