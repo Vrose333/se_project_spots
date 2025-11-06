@@ -100,7 +100,8 @@ function getCardElement(data) {
   titleEl.textContent = data.name;
 
   likeBtn.addEventListener("click", () => {
-    likeBtn.classList.toggle("card__like-btn_liked");
+    const isActive = likeBtn.classList.toggle("card__like-btn_active");
+    likeBtn.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 
   deleteBtn.addEventListener("click", () => {
